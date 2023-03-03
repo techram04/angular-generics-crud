@@ -1,0 +1,40 @@
+<h1>Generic CRUD Service & Model</h1>
+
+By <a href="https://twitter.com/nikosanif">@nikosanif</a>
+
+<h2>Articles</h2>
+<ul>
+  <li>
+    <a
+      href="https://dev.to/nikosanif/generic-crud-service-in-angular-part-1-understanding-generics-2n75"
+      target="blank"
+      >Part 1 - Understanding Generics</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://dev.to/nikosanif/generic-crud-service-in-angular-part-2-what-is-crud-30ek"
+      target="blank"
+      >Part 2 - What is CRUD?</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://dev.to/nikosanif/generic-crud-service-in-angular-part-3-generic-crud-model-2hl"
+      target="blank"
+      >Part 3 - Generic CRUD Model</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://dev.to/nikosanif/generic-crud-service-in-angular-part-4-3neo"
+      target="blank"
+      >Part 4 - Generic CRUD Service in Angular</a
+    >
+  </li>
+</ul>
+
+<h2>Unicorns List</h2>
+<p *ngFor="let unicorn of unicorns$ | async">
+  {{ unicorn | json }}
+</p>
